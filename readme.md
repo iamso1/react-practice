@@ -10,6 +10,7 @@ practice001
 2. 產生產品ItemList
     - add ProductListgit
 3. 資料先撈靜態的
+4. 資料從reducer撈, 並利用map自動產生html
  
 
 
