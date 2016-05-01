@@ -3,7 +3,7 @@ practice001
 
 ###練習產生靜態物件
 
-####TODO
+####TODO:
 
 1. 產生產品Item
     - add ProductItem
@@ -13,3 +13,7 @@ practice001
  
 
 
+###Questions:
+1. 為什麼有些props要 props.state.reducer?
+2. store跟state的差別?
+3. reducer 的function 為什麼需要命名?

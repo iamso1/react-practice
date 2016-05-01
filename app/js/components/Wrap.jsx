@@ -1,15 +1,15 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import ProductListItem from './ProductListItem.jsx'
+import ProductList from './ProductList.jsx'
 
 class Wrap extends React.Component {
 	render() {
 		console.log(this.props);
 		return (
 			<div> 
-				Hello my first React practice
-				<ProductListItem item={this.props.product}/>
+				<h1>Hello my first React practice </h1>
+				<ProductList data= {this.props.products}/>
 			</div>
 		);
 	}
