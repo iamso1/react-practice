@@ -3,8 +3,13 @@ import { connect } from 'react-redux';
 
 import ProductList from './ProductList.jsx'
 
+import { bindActionCreators } from 'redux';
+import { getProduct } from '../actions/AppAction.js';
 
 class Wrap extends React.Component {
+	componentDidMount(){
+		this.props.dispatch(getProduct());
+	}
 	render() {
 		return (
 			<div> 

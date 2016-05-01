@@ -1,16 +1,11 @@
-const initialState =[
-    {
-        "name":'1',
-        "about":'about 1',
-        "price":100
-    },
-    {
-        "name":'2',
-        "about":'about 2',
-        "price":200
-    }
-];
+const initialState =[];
 
 export default function products(state = initialState, action) {
-    return state;
+	switch(action.type) {
+        case 'RECEIVE_Product':
+            state = action.data;
+            return [ ...state ]
+    	default:
+    		return state;
+	}
 }
