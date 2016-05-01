@@ -1,21 +1,19 @@
-practice001
+practice003
 ======
 
-###練習產生靜態物件
+###練習增刪搜資料
 
 ####TODO:
-
-1. 產生產品Item
-    - add ProductItem
-2. 產生產品ItemList
-    - add ProductListgit
-3. 資料先撈靜態的
-4. 資料從reducer撈, 並利用map自動產生html
-5. 測試flexbox排版
+1. 加入新資料
+2. 刪除資料
+3. 搜尋資料
+ 
+步驟:
+1. 加入一個新增產品的form
+2. 把新增產品form加入wrap中
+3. 新增action (新增產品)
+   
 
 
 ###Questions:
-1. 為什麼有些props要 props.state.reducer?
-2. store跟state的差別?
-3. reducer 的function 為什麼需要命名?
-4. webpack的config應如何選擇 dev or prod?
+1. 修?
