@@ -11,10 +11,11 @@ practice001
     - add ProductListgit
 3. 資料先撈靜態的
 4. 資料從reducer撈, 並利用map自動產生html
- 
+5. 測試flexbox排版
 
 
 ###Questions:
 1. 為什麼有些props要 props.state.reducer?
 2. store跟state的差別?
 3. reducer 的function 為什麼需要命名?
+4. webpack的config應如何選擇 dev or prod?
