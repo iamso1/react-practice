@@ -7,7 +7,7 @@ export default class ProductList extends React.Component {
 			return (<ProductListItem item={item}></ProductListItem>)
 		});
 		return (
-			<table class='table'>
+			<table>
 				<thead>
 					<tr>
 						<td>Name</td>

@@ -5,6 +5,7 @@ import configureStore from './store/configureStore.js';
 import Wrap from './components/Wrap.jsx';
 
 const store = configureStore();
+
 const rootElement = document.getElementById('root');
 
 render(

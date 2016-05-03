@@ -1,9 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import ProductList from './ProductList.jsx'
-
-import { bindActionCreators } from 'redux';
+import ProductList from './ProductList.jsx';
 import { getProduct } from '../actions/AppAction.js';
 
 class Wrap extends React.Component {

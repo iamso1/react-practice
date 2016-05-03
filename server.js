@@ -12,11 +12,15 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.get('*', function(req, res) {
+app.get('/home', function(req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(3000, '127.0.0.1', function(err) {
+app.get('/data', function(req, res) {
+    res.sendFile(path.join(__dirname, 'data.json'));
+});
+
+app.listen(process.env.PORT, process.env.IP, function(err) {
     if (err) {
         console.log(err);
         return;
