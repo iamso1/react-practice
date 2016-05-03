@@ -18,4 +18,3 @@ practice001
 1. 為什麼有些props要 props.state.reducer?
 2. store跟state的差別?
 3. reducer 的function 為什麼需要命名?
-4. webpack的config應如何選擇 dev or prod?
