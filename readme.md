@@ -12,4 +12,4 @@ practice002
 
 ###Questions:
 1. Actions must be plain objects. Use custom middleware for async actions.
-2. constants會用到嗎?
+    - 修改create store的邏輯 加入thuk
